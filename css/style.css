@@ -4,8 +4,14 @@ body {
     background-color: #f4f4f4;
     color: #333
 }
-header {
-    background-color: #1e3a8a;
+#main_page_header {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#second_page_header {
+    background-color: orangered;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -26,12 +32,53 @@ main {
 section {
     margin-bottom: 35px;
 }
-h2{
-    color:#1e3a8a;
+#origins_of_basketball {
+    width: 50%;
+    background-color:#1e3a8a;
+    border:1px solid black;
+    padding: 10px;
+}
+#first_game {
+    width: 50%;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 10px;
+}
+#early_development {
+    width: 50%;
+    background-color:#1e3a8a;
+    border:1px solid black;
+    padding: 10px;
+}
+#NBA {
+    width: 50%;
+    background-color:#1e3a8a;
+    border:1px solid black;
+    padding: 10px;
+}
+#global_influences {
+    width: 50%;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 10px;
 }
 footer{
     background-color: #222;
     color: white;
     text-align: center;
     font-size: 30px;
+}
+.subheader {
+    font-weight: bold;
+    font-size: 25px;
+}
+.button {
+    background-color:orangered;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
 }
