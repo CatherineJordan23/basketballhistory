@@ -82,3 +82,17 @@ footer{
     display: inline-block;
     margin: 10px;
 }
+#page1_wrapper {
+    display: flex;
+    gap: 20px;
+}
+#origins_of_basketball, #first_game, #early_development {
+    flex: 1;
+}
+#page2_wrapper {
+    display: flex;
+    gap: 20px;
+}
+#NBA, #global_influences {
+    flex: 1;
+}
