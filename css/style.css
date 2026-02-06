@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333
+}
+header {
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+nav a {
+    color:white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    font-size: 30px;
+    max-width: 900;
+    margin: auto;
+}
+section {
+    margin-bottom: 35px;
+}
+h2{
+    color:#1e3a8a;
+}
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}

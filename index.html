@@ -1,12 +1,26 @@
 <!DOCTYPE html>
+<!-- 
+Declares the document type and version of HTML.
+-->
 <html>
     <head>
+        <!-- Title that appears in the browser tab-->
         <title>Basketball History</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <!-- 
+            Header section:
+            Contains the main title, subtitle, and navigation links.
+            Sematic <header> tag improves accessibility and structure.
+        -->
     <header>
+        <!-- Main heading of the page-->
         <h1>Basketball History</h1>
+        <!--Subheading providing additional context-->
         <h3> From Its Invention to Early Stages</h3>
+        <!-- Navigation menu:
+            Allows users to move between the two pages of the website.-->
         <nav> 
             <a href="index.html">Back to Home</a>
             
@@ -14,21 +28,32 @@
         </nav>
     </header>
 
+    <!-- Main content:
+        Holds all primary information for this page.-->
+
     <main>
+        <!-- Section about the origins of basketball.
+         Each <section> groups related content together.-->
 
         <section>
             <h2>Origins of Basketball</h2>
+            <!-- Paragraph describing who invented basketball.-->
             <p>
                 Basketball was invented in 1891 by Dr. James Naismith, a physical education instructor in Springfield, Massachusetts.
             </p>
+            <!-- Additional paragraph expanding on the purpose of the game.-->
             <p>
                 The goal was to create a new indoor game that could be played during the winter months while keeping athletes active.
             </p>
+            <!-- Image element:
+                Uses a relative file path.
+                Includes alt text for accessibility and width for sizing.-->
 
             <img src="images/naismith.jpg"
             alt="Dr. James Naismith holding a basketball"
             width="25%">
         </section>
+        <!-- Section explaining the first basketball game.1-->
 
         <section>
             <h2>The First Game</h2>
@@ -36,14 +61,18 @@
                 The original game used a soccer ball and two peach baskets as goals.
                 Players were not allowed to dribble , and the ball had to be paseed.
             </p>
+            <!--Subheading for the unordered list.-->
 
             <h3>Original Equipment Used</h3>
+            <!-- Unordered list:
+                Used to list items without a specific order.-->
             <ul>
                 <li>Soccer Ball</li>
                 <li>Peach Baskets</li>
                 <li>Gymnasium Court</li>
             </ul>
         </section>
+        <!-- Section about early rule development.-->
 
         <section>
             <h2>Early Development</h2>
@@ -51,13 +80,18 @@
                 As basketball spread across schools and YMCA centers, rules evolved
                 to make the game faster and more exciting.
             </p>
+            <!-- Subeheading for ordered list.-->
 
             <h3>Key Early Milestones</h3>
+            <!-- Ordered list:
+                USed to show events in chronological order.-->
             <ol>
                 <li>1891 - Game Invented</li>
                 <li>1893 - Metal Hoops Introduced</li>
                 <li>1906 - Open Nets Replaced Baskets</li>
             </ol>
+            <!-- External link:
+                Opens in a new tab -->
             <p>
                 Learn more about the inventor at
                 <a href="https://naismithbasketballfoundation.com/about-dr-james-naismith/">The Naismith Basketball Foundation</a>
@@ -65,6 +99,8 @@
         </section>
 
     </main>
+    <!-- Footer section:
+        Contains closing information.-->
     <footer>
         <p>2026 Basketball History Website</p>
     </footer>
