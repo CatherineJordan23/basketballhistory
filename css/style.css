@@ -1,98 +1,138 @@
+/* 
+This rule styles the entire webpage body.
+It sets the default font, removes default margins,
+and defines background and text colors for readability.
+*/
 body {
-    font-family: sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333
+    font-family: sans-serif; /* Sets readable sans-serif font stack */
+    margin: 0; /* Removes default spacing around page edges */
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333 /* Dark gray text color for contrast */
 }
+
+/* Styles the sematic header section that contains page titles
+and navigation links for the main page and second page. */
+
 #main_page_header {
-    background-color: orangered;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+    background-color: orangered; /* Orangered background */
+    color: white; /* Makes text readable against the orangered background */
+    font-size: 20px; /* Makes font-size 20px */
+    text-align: center; /* Centers header content */
 }
 #second_page_header {
-    background-color: orangered;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+    background-color: orangered; /* Orangered background */
+    color: white; /* Makes text readable agaisnt the orangered */
+    font-size: 20px; /* Makes font-size 20px */
+    text-align: center; /* Centers header content */
 }
+/* Targets navigation links inside the nav element.
+Controls appearance of clickable links. */
 nav a {
-    color:white;
-    margin: 0 15px;
-    text-decoration: none;
+    color:white; /* Makes links visiable */
+    margin: 0 15px; /* Adds horizontal spacing between links */
+    text-decoration: underline; /* Adds underline under test */
 }
-nav a:hover {
-    text-decoration: underline;
-}
+
+/* Styles the main content area.
+   Limits width for readability and centers content.
+*/
 main {
-    font-size: 30px;
-    max-width: 900;
-    margin: auto;
+    font-size: 30px; /* Makes font-size 30px */
+    max-width: 900px; /* Prevents text from stretching too wide */
+    margin: auto; /* Centers the main content */
 }
+
+/* Adds spacing between content sections.
+Helps visually seperate topics. */
 section {
     margin-bottom: 35px;
 }
+
+/* Title of first section of info */
 #origins_of_basketball {
-    width: 50%;
-    background-color:#1e3a8a;
-    border:1px solid black;
-    padding: 10px;
+    width: 50%; /* Makes the section cover 50% of page */
+    background-color:#1e3a8a; /* Makes the background-color of section blue */
+    border:1px solid black; /* Gives a 1px border around the section */
+    padding: 10px; /* Internal spacing */
 }
+
+/* Title of second section of info */
 #first_game {
-    width: 50%;
-    background-color: orangered;
-    border: 1px solid black;
-    padding: 10px;
+    width: 50%; /* Makes the section cover 50% of page */
+    background-color: orangered; /* Makes the background-color orangered */
+    border: 1px solid black; /* Gives a 1px border around the section */
+    padding: 10px; /* Internal spacing */
 }
+
+/* Title of third section of info */
 #early_development {
-    width: 50%;
-    background-color:#1e3a8a;
-    border:1px solid black;
-    padding: 10px;
+    width: 50%; /* Makes the section cover 50% of page */
+    background-color:#1e3a8a; /* Makes the background-color blue */
+    border:1px solid black; /* Gives a 1px border around the section */
+    padding: 10px; /* Internal spacing */
 }
+
+/* Title of the fourth section of info */
 #NBA {
-    width: 50%;
-    background-color:#1e3a8a;
-    border:1px solid black;
-    padding: 10px;
+    width: 50%; /* Makes the section cover 50% of page */
+    background-color:#1e3a8a; /* Makes the background-color blue */
+    border:1px solid black; /* Gives a 1px border around the section */
+    padding: 10px; /* Internal spacing */
 }
+
+/* Title of fith section of info */
 #global_influences {
-    width: 50%;
-    background-color: orangered;
-    border: 1px solid black;
-    padding: 10px;
+    width: 50%; /* Makes the section cover 50% of page */
+    background-color: orangered; /* Gives the background-color orangered */
+    border: 1px solid black; /* gives a 1px border around the section */
+    padding: 10px; /* Internal spacing */
 }
+
+/* Styles footer at bottom page.
+   Typically used for copyright or extra info. */
 footer{
-    background-color: #222;
-    color: white;
-    text-align: center;
-    font-size: 30px;
+    background-color: #222; /*  Dark background */
+    color: white; /* Light text for contrast */
+    text-align: center; /* Centers footer text */
+    font-size: 30px; /* Makes font-size 30px */
 }
+
+/* Class for subheader */
 .subheader {
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: bold; /* Makes font-weight bold */
+    font-size: 25px; /* makes font-size 25px */
 }
+
+/* Class for links to external sights */
 .button {
     background-color:orangered;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
+    color: white; 
+    padding: 15px; 
+    text-align: center; 
+    text-decoration: none; 
     font-size: 20px;
     display: inline-block;
     margin: 10px;
 }
+
+/* Flex-box for page 1 content */
 #page1_wrapper {
-    display: flex;
-    gap: 20px;
+    display: flex; /* turns section into a flexbox container */
+    gap: 20px; /* Leaves a gap inbetween sections */
 }
 #origins_of_basketball, #first_game, #early_development {
-    flex: 1;
+    flex: 1; /* Makes each section take up equal space in the row */
 }
+
+/* Flex-box for page 2 content */
 #page2_wrapper {
-    display: flex;
-    gap: 20px;
+    display: flex; /* turns section into a flexbox container */
+    gap: 20px; /* Leaves a gap between section */
 }
 #NBA, #global_influences {
-    flex: 1;
+    flex: 1; /* Makes each section take up equal space in the row */
+}
+img {
+    display: block;  /* Places image on its own line */
+    margin-top: 15px; /* Adds spacing above the image */
 }
