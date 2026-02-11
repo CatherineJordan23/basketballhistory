@@ -7,28 +7,28 @@ body {
     font-family: sans-serif; /* Sets readable sans-serif font stack */
     margin: 0; /* Removes default spacing around page edges */
     background-color: #f4f4f4; /* Light gray background color */
-    color: #333 /* Dark gray text color for contrast */
+    color: #fff;
 }
 
 /* Styles the sematic header section that contains page titles
 and navigation links for the main page and second page. */
 
 #main_page_header {
-    background-color: orangered; /* Orangered background */
-    color: white; /* Makes text readable against the orangered background */
+    background-color: #0000cd; /* Orangered background */
+    color: #fff; /* Makes text readable against the orangered background */
     font-size: 20px; /* Makes font-size 20px */
     text-align: center; /* Centers header content */
 }
 #second_page_header {
-    background-color: orangered; /* Orangered background */
-    color: white; /* Makes text readable agaisnt the orangered */
+    background-color: #0000cd; /* Orangered background */
+    color: #fff; /* Makes text readable agaisnt the orangered */
     font-size: 20px; /* Makes font-size 20px */
     text-align: center; /* Centers header content */
 }
 /* Targets navigation links inside the nav element.
 Controls appearance of clickable links. */
 nav a {
-    color:white; /* Makes links visiable */
+    color:#fff; /* Makes links visiable */
     margin: 0 15px; /* Adds horizontal spacing between links */
     text-decoration: underline; /* Adds underline under test */
 }
@@ -51,15 +51,15 @@ section {
 /* Title of first section of info */
 #origins_of_basketball {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color:#1e3a8a; /* Makes the background-color of section blue */
-    border:1px solid black; /* Gives a 1px border around the section */
+    background-color:#9400d3; /* Makes the background-color of section blue */
+    border:1px solid #000; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
 }
 
 /* Title of second section of info */
 #first_game {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color: orangered; /* Makes the background-color orangered */
+    background-color: #0000cd; /* Makes the background-color orangered */
     border: 1px solid black; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
 }
@@ -67,23 +67,23 @@ section {
 /* Title of third section of info */
 #early_development {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color:#1e3a8a; /* Makes the background-color blue */
-    border:1px solid black; /* Gives a 1px border around the section */
+    background-color:#9400d3; /* Makes the background-color blue */
+    border:1px solid #fff; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
 }
 
 /* Title of the fourth section of info */
 #NBA {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color:#1e3a8a; /* Makes the background-color blue */
-    border:1px solid black; /* Gives a 1px border around the section */
+    background-color:#9400d3; /* Makes the background-color blue */
+    border:1px solid #fff; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
 }
 
 /* Title of fith section of info */
 #global_influences {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color: orangered; /* Gives the background-color orangered */
+    background-color: #0000cd; /* Gives the background-color orangered */
     border: 1px solid black; /* gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
 }
@@ -105,7 +105,7 @@ footer{
 
 /* Class for links to external sights */
 .button {
-    background-color:orangered;
+    background-color: #0000cd;
     color: white; 
     padding: 15px; 
     text-align: center; 
