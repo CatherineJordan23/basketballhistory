@@ -138,7 +138,8 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+/* Responsive Media Query */
+/* Adjust layout for smaller screens */
 @media (max-width: 768px) {
 
     body {
@@ -159,6 +160,7 @@ img {
     }
 
 }
+/* Changes the text color of all <a> tags to white */
 a {
     color: #fff; 
 }
