@@ -7,7 +7,6 @@ body {
     font-family: sans-serif; /* Sets readable sans-serif font stack */
     margin: 0; /* Removes default spacing around page edges */
     background-color: #f4f4f4; /* Light gray background color */
-    color: #fff;
 }
 
 /* Styles the sematic header section that contains page titles
@@ -15,13 +14,11 @@ and navigation links for the main page and second page. */
 
 #main_page_header {
     background-color: #0000cd; /* Orangered background */
-    color: #fff; /* Makes text readable against the orangered background */
     font-size: 20px; /* Makes font-size 20px */
     text-align: center; /* Centers header content */
 }
 #second_page_header {
     background-color: #0000cd; /* Orangered background */
-    color: #fff; /* Makes text readable agaisnt the orangered */
     font-size: 20px; /* Makes font-size 20px */
     text-align: center; /* Centers header content */
 }
@@ -62,6 +59,7 @@ section {
     background-color: #0000cd; /* Makes the background-color orangered */
     border: 1px solid black; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
+    color: white;
 }
 
 /* Title of third section of info */
@@ -70,6 +68,7 @@ section {
     background-color:#9400d3; /* Makes the background-color blue */
     border:1px solid #fff; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
+    color: white;
 }
 
 /* Title of the fourth section of info */
@@ -92,7 +91,6 @@ section {
    Typically used for copyright or extra info. */
 footer{
     background-color: #222; /*  Dark background */
-    color: white; /* Light text for contrast */
     text-align: center; /* Centers footer text */
     font-size: 30px; /* Makes font-size 30px */
 }
@@ -135,7 +133,7 @@ footer{
 img {
     display: block;  /* Places image on its own line */
     margin-top: 15px; /* Adds spacing above the image */
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
 }
 /* Responsive Media Query */
