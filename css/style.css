@@ -12,21 +12,11 @@ body {
 /* Styles the sematic header section that contains page titles
 and navigation links for the main page and second page. */
 
-#main_page_header {
-    background-color: #0000cd; /* Orangered background */
-    font-size: 20px; /* Makes font-size 20px */
-    text-align: center; /* Centers header content */
-}
-#second_page_header {
-    background-color: #0000cd; /* Orangered background */
-    font-size: 20px; /* Makes font-size 20px */
-    text-align: center; /* Centers header content */
-}
 /* Targets navigation links inside the nav element.
 Controls appearance of clickable links. */
+/* Bootstrap handles spacing */
 nav a {
     color:#fff; /* Makes links visiable */
-    margin: 0 15px; /* Adds horizontal spacing between links */
     text-decoration: underline; /* Adds underline under test */
 }
 
@@ -34,23 +24,16 @@ nav a {
    Limits width for readability and centers content.
 */
 main {
-    font-size: 30px; /* Makes font-size 30px */
-    max-width: 900px; /* Prevents text from stretching too wide */
+    font-size: 1.2rem; /* Makes font-size 30px */
     margin: auto; /* Centers the main content */
 }
 
 /* Adds spacing between content sections.
 Helps visually seperate topics. */
 section {
+    padding:20px;
+    border-radius:12px;
     margin-bottom: 35px;
-}
-
-/* Title of first section of info */
-#origins_of_basketball {
-    width: 50%; /* Makes the section cover 50% of page */
-    background-color:#9400d3; /* Makes the background-color of section blue */
-    border:1px solid #000; /* Gives a 1px border around the section */
-    padding: 10px; /* Internal spacing */
 }
 
 /* Title of second section of info */
@@ -66,25 +49,9 @@ section {
 #early_development {
     width: 50%; /* Makes the section cover 50% of page */
     background-color:#9400d3; /* Makes the background-color blue */
-    border:1px solid #fff; /* Gives a 1px border around the section */
+    border:1px solid black; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
     color: white;
-}
-
-/* Title of the fourth section of info */
-#NBA {
-    width: 50%; /* Makes the section cover 50% of page */
-    background-color:#9400d3; /* Makes the background-color blue */
-    border:1px solid #fff; /* Gives a 1px border around the section */
-    padding: 10px; /* Internal spacing */
-}
-
-/* Title of fith section of info */
-#global_influences {
-    width: 50%; /* Makes the section cover 50% of page */
-    background-color: #0000cd; /* Gives the background-color orangered */
-    border: 1px solid black; /* gives a 1px border around the section */
-    padding: 10px; /* Internal spacing */
 }
 
 /* Styles footer at bottom page.
@@ -92,48 +59,21 @@ section {
 footer{
     background-color: #222; /*  Dark background */
     text-align: center; /* Centers footer text */
-    font-size: 30px; /* Makes font-size 30px */
+    font-size: 1.2rem; /* Makes font-size 30px */
+    color: white;
+    padding: 15px;
+    letter-spacing:1px;
 }
 
 /* Class for subheader */
 .subheader {
     font-weight: bold; /* Makes font-weight bold */
-    font-size: 25px; /* makes font-size 25px */
-}
-
-/* Class for links to external sights */
-.button {
-    background-color: #0000cd;
-    color: white; 
-    padding: 15px; 
-    text-align: center; 
-    text-decoration: none; 
-    font-size: 20px;
-    display: inline-block;
-    margin: 10px;
-}
-
-/* Flex-box for page 1 content */
-#page1_wrapper {
-    display: flex; /* turns section into a flexbox container */
-    gap: 20px; /* Leaves a gap inbetween sections */
-}
-#origins_of_basketball, #first_game, #early_development {
-    flex: 1; /* Makes each section take up equal space in the row */
-}
-
-/* Flex-box for page 2 content */
-#page2_wrapper {
-    display: flex; /* turns section into a flexbox container */
-    gap: 20px; /* Leaves a gap between section */
-}
-#NBA, #global_influences {
-    flex: 1; /* Makes each section take up equal space in the row */
+    font-size: 1.2rem; /* makes font-size 25px */
 }
 img {
     display: block;  /* Places image on its own line */
     margin-top: 15px; /* Adds spacing above the image */
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
 }
 /* Responsive Media Query */
