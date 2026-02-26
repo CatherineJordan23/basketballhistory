@@ -39,7 +39,7 @@ section {
 /* Title of second section of info */
 #first_game {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color: #0000cd; /* Makes the background-color orangered */
+    background-color: rgb(0, 4, 255); /* Makes the background-color orangered */
     border: 1px solid black; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
     color: white;
@@ -48,7 +48,7 @@ section {
 /* Title of third section of info */
 #early_development {
     width: 50%; /* Makes the section cover 50% of page */
-    background-color:#9400d3; /* Makes the background-color blue */
+    background-color:rgb(0, 4, 255); /* Makes the background-color blue */
     border:1px solid black; /* Gives a 1px border around the section */
     padding: 10px; /* Internal spacing */
     color: white;
